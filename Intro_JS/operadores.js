@@ -14,3 +14,9 @@ let g = a; //Operador de asignación
 
 let x = 3 == "3"; //true
 let y = 3 === "3" //false ¿Son estrictamente iguales? No, entonces false
+/* Operadores de comparación
+* 5<3 Es 5 menor a 3?
+* 5>3 Es 5 mayo a 3?
+* 5<=3 Es 5 menor o igual a 3?
+* 5>=3 Es 5 mayor o igual a 3?
+* */
