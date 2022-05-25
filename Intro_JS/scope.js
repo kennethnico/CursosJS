@@ -1,7 +1,7 @@
-var name ="Ken";
+const name ="Ken";
 
 function scope_local(){
-    var apellidos ="Nicolás Ruiz";
+    let apellidos ="Nicolás Ruiz";
     return name+" "+apellidos;
 }
 
