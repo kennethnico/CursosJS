@@ -12,3 +12,6 @@ function saludarE(estudiante){
 for(let i=0;i<estudiantes.length;i++){
     saludarE(estudiantes[i]);
 }
+for (var estudiante of estudiantes){
+    saludarE(estudiante);
+}
