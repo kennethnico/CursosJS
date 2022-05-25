@@ -17,3 +17,4 @@ let myNName ="Edwin";
 // Hola compañero undefined
 // Las funciones se procesan antes de ejecutar cualquier código
 //Pero las variables se declaran después.
+//Las variables se declaran hasta arriba, como buena práctica.
