@@ -11,3 +11,6 @@ let e = "Kenet" + "Nicolas Ruiz"; //Concatena con el operador +
 let f = !false; //Negación
 
 let g = a; //Operador de asignación
+
+let x = 3 == "3"; //true
+let y = 3 === "3" //false ¿Son estrictamente iguales? No, entonces false
