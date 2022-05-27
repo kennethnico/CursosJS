@@ -1,4 +1,4 @@
-//Definición del Objeto Estudiante
+//Variables y Operaciones
 let estudiante={
     nombre: "Edwin Kenet",
     apellido: "Nicolás Ruiz",
@@ -11,3 +11,10 @@ let estudiante={
 }
 console.log("Nombre completo :"+estudiante.nombre+" "+estudiante.apellido);
 console.log("Dinero real : $"+String(estudiante.dinero_ahorrado-estudiante.deudas));
+
+//Funciones
+function miFuncion(nombre, apellido, nickname){
+    console.log("Mi nombre es: "+nombre+" "+apellido+", pero prefiero que me digas: "+nickname);
+}
+
+console.log(miFuncion("Edwin Kenet","Nicolás", "Ken"));
