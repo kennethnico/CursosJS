@@ -25,4 +25,8 @@ c) Argumento: El valor que se asigna al "llamar" a una función.
 
 /**Condicionales**/
 1-.
-a) Una condicional, es una serie de instrucciones que se realizan dependiendo de una premisa booleana. (Si esto, entonces)
+a) Una condicional, es una serie de instrucciones que se realizan dependiendo del resultado de una premisa con resultado boolean. (Si esto, entonces)
+b) Los tipos de condicional que existen son If-Else, If...for y Switch
+   If-else: Si se cumple la condición, entonces...
+   If...for: Es una condicional ternaria, una manera compacta de If.
+   Switch: Evalúa por casos la condicion
