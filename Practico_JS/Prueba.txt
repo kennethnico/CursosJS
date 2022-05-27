@@ -1,3 +1,5 @@
+/***Variables y Operaciones***/
+
 1.
 a) Una variable es un espacio en memoria reservador para almacenar datos.
 b) Declarar una variable hace referencia a especificar el tipo de dato y espacio en memoria que se va a reservar, inicializarla indica que se le asignará un valor inicial.
@@ -13,3 +15,9 @@ Correo eléctronico -> Cadena
 Mayor de edad -> Booleano
 Dinero ahorrado -> número
 Deudas -> número
+
+/***Funciones**/
+1.-
+a) Una función es un bloque de código que se puede reutilizar en nuestro proyecto.
+b) Cuándo fragmentos de nuestro poryecto se repiten, podemos dividirla y reutilizar la función, en lugar de reescribir el código.
+c)
