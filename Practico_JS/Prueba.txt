@@ -1,0 +1,15 @@
+1.
+a) Una variable es un espacio en memoria reservador para almacenar datos.
+b) Declarar una variable hace referencia a especificar el tipo de dato y espacio en memoria que se va a reservar, inicializarla indica que se le asignará un valor inicial.
+c) Sumar números indica realizar una operación aritmética, en cuanto a la concatenación se refiere a la unión de dos cadenas de texto.
+d) El operador +
+
+2.
+Nombre -> Cadena
+Apellido -> Cadena
+Usuario_platzi -> Cadena
+Edad -> Número
+Correo eléctronico -> Cadena
+Mayor de edad -> Booleano
+Dinero ahorrado -> número
+Deudas -> número
