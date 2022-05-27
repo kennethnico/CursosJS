@@ -22,3 +22,5 @@ a) Una función es un bloque de código que se puede reutilizar en nuestro proye
 b) Cuándo fragmentos de nuestro proyecto se repiten, podemos dividirla y reutilizar la función, en lugar de reescribir el código.
 c) Argumento: El valor que se asigna al "llamar" a una función.
     Parametro: Propiedad especifícada al definir una función.
+
+/**Condicionales**/
