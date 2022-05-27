@@ -24,3 +24,5 @@ c) Argumento: El valor que se asigna al "llamar" a una función.
     Parametro: Propiedad especifícada al definir una función.
 
 /**Condicionales**/
+1-.
+a) Una condicional, es una serie de instrucciones que se realizan dependiendo de una premisa booleana. (Si esto, entonces)
