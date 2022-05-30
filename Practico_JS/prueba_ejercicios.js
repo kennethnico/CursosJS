@@ -79,6 +79,19 @@ while(cont >= 2){
 }
 
 /*Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, volvemos a empezar.*/
-let userInt = prompt("¿Cuánto es 2+2?")
+let userInt = parseInt(prompt("¿Cuánto es 2+2?"));
+while (userInt !== 4){
+    userInt = parseInt(prompt("¿Cuánto es 2+2?"));
+}
+console.log("Felicitaciones, sabes sumar");
 
+//Listas
+/*Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.*/
 
+function retornaPrimerElemento(miArray){
+    return miArray.unshift();
+}
+
+/*Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).*/
+
+/*Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).*/
