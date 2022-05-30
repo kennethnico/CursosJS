@@ -72,8 +72,11 @@ function  areaTriangulo(base,altura){
     return base*altura;
 }
 //Circulo
+function diametroCirculo(radio){
+    return radio*2;
+}
 function circunferenciaCirculo(radio){
-    return radio*2*Math.PI;
+    return diametroCirculo(radio)*Math.PI;
 }
 function areaCirculo(radio){
     return Math.PI*radio*radio;
