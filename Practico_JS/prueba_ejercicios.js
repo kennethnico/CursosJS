@@ -86,12 +86,26 @@ while (userInt !== 4){
 console.log("Felicitaciones, sabes sumar");
 
 //Listas
+let numeros =["uno","dos","tres","cuatro"];
+let objetoAutos=[{anio:2005, color: "rojo"}, {anio:1999, color: "azul"}, {anio:2002, color: "verde"}];
 /*Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.*/
-
 function retornaPrimerElemento(miArray){
-    return miArray.unshift();
+    return miArray[0];
 }
-
 /*Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).*/
-
+function elementos(miArray){
+ for(let elemento of miArray){
+    console.log("Elemento: " + elemento);
+ }
+}
 /*Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).*/
+function recorreObjetos(miObjeto){
+    for(let objeto of miObjeto){
+        console.log("Objeto: "+miObjeto.indexOf(objeto));
+        console.log("Año: "+objeto.anio);
+        console.log("Color: "+objeto.color);
+    }
+}
+console.log(retornaPrimerElemento(numeros));
+elementos(numeros);
+recorreObjetos(objetoAutos);
