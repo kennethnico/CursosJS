@@ -36,3 +36,4 @@ c) Si se puede combinar funciones y condicionales.
 a) Un ciclo es un segmento de código que se ejecuta la cantidad de veces que sea necesario.
 b) En JS existen dos tipos de ciclos: for y while
 c) Un ciclo infinito es un bloque de código que se ejecutará de manera indefinida, el problema con este tipo de ciclos es que llegan a consumir mucha memoria y entorpecer el buen funcionamiento, no solo del código, sino también del navegador.
+d) Si, se pueden combinar los ciclos y condicionales.

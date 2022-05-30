@@ -59,5 +59,26 @@ if (tipoDeSuscripcion3.indexOf(suscripcion) !== -1){
     console.log(mensaje[tipoDeSuscripcion3.indexOf(suscripcion)]);
 }
 
+//Ciclos
+/*Replica el comportamiento de los siguientes ciclos for utilizando ciclos while*/
+for (let i = 0; i < 5; i++) {
+    console.log("El valor de i es: " + i);
+}
+let car = 0;
+while(car < 5){
+    console.log("El valor de car es: " + car);
+    car++;
+}
+for (let i = 10; i >= 2; i--) {
+    console.log("El valor de i es: " + i);
+}
+let cont = 10;
+while(cont >= 2){
+    console.log("El valor de cont es: " + cont);
+    cont--;
+}
+
+/*Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, volvemos a empezar.*/
+let userInt = prompt("¿Cuánto es 2+2?")
 
 
