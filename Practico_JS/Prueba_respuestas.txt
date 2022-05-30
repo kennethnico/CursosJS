@@ -1,13 +1,9 @@
 /***Variables y Operaciones***/
-
-1.
-a) Una variable es un espacio en memoria reservado para almacenar datos.
-b) Declarar una variable hace referencia a especificar el tipo de dato y espacio en memoria que se va a reservar, inicializarla indica que se le asignará un valor inicial.
-c) Sumar números indica realizar una operación aritmética, en cuanto a la concatenación se refiere a la unión de dos cadenas de texto.
-d) El operador +
-
-2.
-Nombre -> Cadena
+1.a) Una variable es un espacio en memoria reservado para almacenar datos.
+1.b) Declarar una variable hace referencia a especificar el tipo de dato y espacio en memoria que se va a reservar, inicializarla indica que se le asignará un valor inicial.
+1.c) Sumar números indica realizar una operación aritmética, en cuanto a la concatenación se refiere a la unión de dos cadenas de texto.
+1.d) El operador +
+2.Nombre -> Cadena
 Apellido -> Cadena
 Usuario_platzi -> Cadena
 Edad -> Número
@@ -15,14 +11,12 @@ Correo electrónico -> Cadena
 Mayor de edad -> Booleano
 Dinero ahorrado -> número
 Deudas -> número
-
 /***Funciones**/
 1.-
 a) Una función es un bloque de código que se puede reutilizar en nuestro proyecto.
 b) Cuándo fragmentos de nuestro proyecto se repiten, podemos dividirla y reutilizar la función, en lugar de reescribir el código.
 c) Argumento: El valor que se asigna al "llamar" a una función.
     Parámetro: Propiedad especificada al definir una función.
-
 /**Condicionales**/
 1-.
 a) Una condicional, es una serie de instrucciones que se realizan dependiendo del resultado de una premisa con resultado boolean. (Si esto, entonces)
@@ -31,13 +25,11 @@ b) Los tipos de condicional que existen son If-Else, If...for y Switch
    If...for: Es una condicional ternaria, una manera compacta de If.
    Switch: Evalúa por casos la condición.
 c) Si se puede combinar funciones y condicionales.
-
 /**Ciclos**/
 a) Un ciclo es un segmento de código que se ejecuta la cantidad de veces que sea necesario.
 b) En JS existen dos tipos de ciclos: for y while
 c) Un ciclo infinito es un bloque de código que se ejecutará de manera indefinida, el problema con este tipo de ciclos es que llegan a consumir mucha memoria y entorpecer el buen funcionamiento, no solo del código, sino también del navegador.
 d) Si, se pueden combinar los ciclos y condicionales.
-
 /*Listas*/
 a) Un array es un objeto similar a una lista con características que permite cambiar/editar sus elementos.
 b) Un objeto es una entidad que posee propiedades independientes.
