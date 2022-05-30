@@ -101,7 +101,7 @@ function elementos(miArray){
 /*Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).*/
 function recorreObjetos(miObjeto){
     for(let objeto of miObjeto){
-        console.log("Objeto: "+miObjeto.indexOf(objeto));
+        console.log("OBje: "+objeto.anio);
         console.log("Año: "+objeto.anio);
         console.log("Color: "+objeto.color);
     }

@@ -1,5 +1,8 @@
 /*Funciones de figuras.html*/
+/*****************************************************************************/
+/*****************************************************************************/
 //Cuadrado
+/*
 const ladoCuadrado = 5; //Medida en centimetros.
 const perimetroCuadrado = ladoCuadrado*4;
 const areaCuadrado = ladoCuadrado*ladoCuadrado;
@@ -40,7 +43,7 @@ const diametroCirculo = radioCirculo*2;
 const pi = 3.1415;
 const pi2 = Math.PI;
 //Circunferencia
-const circunferenciaCirculo = pi*diametroCirculo;
+const circunferenciaCirculo = pi2*diametroCirculo;
 //Area Circulo
 const areaCirculo = pi2*radioCirculo*radioCirculo;
 console.group("Círculo");
@@ -50,3 +53,28 @@ console.log("El diámetro del circulo es: "+diametroCirculo);
 console.log("La circunferencia del circulo es: "+circunferenciaCirculo);
 console.log("El área del circulo es: "+areaCirculo);
 console.groupEnd();
+*/
+/*****************************************************************************/
+/*****************************************************************************/
+//Usando funciones
+//Cuadrado
+function perimetroCuadrado(lado){
+    return lado*4;
+}
+function  areaCuadrado(lado){
+    return lado*lado;
+}
+//Triangulo
+function perimetroTriangulo(ladoUno,ladoDos,base){
+    return ladoDos+ladoUno+base;
+}
+function  areaTriangulo(base,altura){
+    return base*altura;
+}
+//Circulo
+function circunferenciaCirculo(radio){
+    return radio*2*Math.PI;
+}
+function areaCirculo(radio){
+    return Math.PI*radio*radio;
+}
