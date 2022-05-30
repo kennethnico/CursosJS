@@ -58,6 +58,7 @@ console.groupEnd();
 /*****************************************************************************/
 //Usando funciones
 //Cuadrado
+
 function perimetroCuadrado(lado){
     return lado*4;
 }
@@ -80,4 +81,11 @@ function circunferenciaCirculo(radio){
 }
 function areaCirculo(radio){
     return Math.PI*radio*radio;
+}
+
+function calcularPerimetroCuadrado(){
+    alert(perimetroCuadrado(parseInt(document.getElementById("ladoCuadrado").value)));
+}
+function calcularAreaCuadrado(){
+    alert(areaCuadrado(parseInt(document.getElementById("ladoCuadrado").value)));
 }
