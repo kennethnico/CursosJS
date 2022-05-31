@@ -41,6 +41,10 @@
         border: solid 1px #666;
         border-radius: 20px;
     }
+    form{
+        margin-top: 20px;
+        display: block;;
+    }
     @media screen and (max-device-width: 640px){
         section div{
             width: 300px;
@@ -52,11 +56,16 @@
 <body>
 <main>
   <header>
-    <h1>Taller 2 - Calculando descuentos</h1>
+    <h1>Taller 2 - Calculando porcentajes y descuentos</h1>
   </header>
   <section>
       <div>
-
+          <form action="">
+              <label for="precioProducto"> Precio del Producto:</label>
+              <input type="text" name="precio" id="precioProducto">
+              <label for="descuentoProducto">Descuento del Producto:</label>
+              <input type="text" name="descuento" id="descuentoProducto">
+          </form>
       </div>
   </section>
 </main>
