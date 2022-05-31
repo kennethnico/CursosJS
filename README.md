@@ -10,8 +10,13 @@
 - prueba_ejercicios.js -> Ejercicios/retos en código javascript parte del examen diagnostico. 😎
 
 ### Taller 1: Figuras geométricas 
- Archivos ()
  - Primer paso: Definir las fórmulas.
  - Segundo paso: Implementar fórmulas en Javascript.
  - Tercer paso: Crear funciones.
  - Curto paso: Integrar Javascript con HTML. 
+
+### Taller 2: Porcentajes y descuentos
+- Primer paso: Definir las fórmulas.
+- Segundo paso: Implementar fórmulas con Javascript.
+- Tercer paso: Crear funciones.
+- Cuarto paso: Integrar JS con HTML.
