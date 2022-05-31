@@ -16,11 +16,11 @@
       font-size: 62.5%;
     }
     main{
-        /*display: flex;
+        display: flex;
+        justify-content: center;
         align-content: center;
-        justify-content: center;*/
     }
-    main>header{
+    header{
         display: flex;
         width: 100%;
         height: 70px;
@@ -28,46 +28,84 @@
         background-color: aquamarine;
         justify-content: center;
         align-items: center;
+        font-size: 1.2rem;
     }
     section{
         display: flex;
+        width: 60%;
         justify-content: center;
         align-content: center;
+        font-size: 1.5rem;
     }
-    section div{
-        width: 500px;
+    section .contenedor{
+        width: 100%;
         height: 500px;
-        margin-top: 50px;
+        margin-top: 20px;
         border: solid 1px #666;
         border-radius: 20px;
     }
-    form{
-        margin-top: 20px;
-        display: block;;
+    section .resultados{
+        width: 100%;
+        height: 200px;
+        border: solid 1px #666;
+        border-radius: 20px;
     }
+    form {
+        display: inline-block;
+        justify-content: center;
+        align-content: center;
+        width:300px;
+        padding:16px;
+        border-radius:10px;
+        margin:auto;
+        background-color:#ccc;
+
+    }
+    form input,label{
+        max-width: 50%;
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+    form button{
+        width: 80%;
+    }
+    .contenedor span{
+        width: 400px;
+        max-width: 600px;
+    }
+    /*Responsive*/
     @media screen and (max-device-width: 640px){
-        section div{
+        section~div{
             width: 300px;
             height: 300px;
+        }
+        form{
+            width: 90%;
         }
     }
   </style>
 </head>
 <body>
-<main>
-  <header>
+<header>
     <h1>Taller 2 - Calculando porcentajes y descuentos</h1>
-  </header>
+</header>
+<main>
   <section>
-      <div>
+      <div class="contenedor">
           <form action="">
               <label for="precioProducto"> Precio del Producto:</label>
               <input type="text" name="precio" id="precioProducto">
+
               <label for="descuentoProducto">Descuento del Producto:</label>
               <input type="text" name="descuento" id="descuentoProducto">
+              <button type="button" onclick="precioOferta()">Calcular descuento</button>
           </form>
+      </div>
+      <div class="resultados">
+          <span id="resultado_del_descuento">Aquí aparecerá el precio final.</span>
       </div>
   </section>
 </main>
+<script src="taller2_descuentos.js"></script>
 </body>
 </html>
